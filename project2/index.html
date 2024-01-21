@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE=edge"/>
+        <meta name="viewport"content="width=device-width, initial-scale=1.0"/>
+        <title>Registration form:</title>
+         <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="apply">
+                <h1>Registration Form
+                    <span class="title_small">(New year)</span>
+                </h1>
+                <form action="">
+                    <div class="form-container">
+                        <div class="form_control">
+                            <label for="first_name">First Name</label>
+                            <input
+                            id="first_name"
+                            name="first_name"
+                            placeholder="Enter First Name"
+                            />
+                        </div>
+            
+                        <div class="form_control">
+                            <label for="last_name">Last Name</label>
+                            <input
+                            id="last_name"
+                            name="last_name"
+                            placeholder="Enter Last Name"
+                            />
+                        </div>
+                            
+                        <div class="form_control">
+                            <label for="email">E-mail</label>
+                            <input 
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter E-mail"
+                            />
+                        </div>
+                            
+                        <div class="form_control">
+                            <label for="dept">Department</label>
+                            <select id="dept" >
+                                <option value="">Select dept.</option>
+                                <option value="CSE">CSE</option>
+                                <option value="EEE">EEE</option>
+                                <option value="CE">CE</option>
+                                <option value="MSE">MSE</option>
+                                <option value="LE">LE</option>
+                                <option value="ECE">ECE</option>
+                            </select>
+                        </div>
+                                        
+                        <div class="text_control">
+                            <label for="address">Address</label>
+                            <textarea 
+                            id="address" 
+                            name="address" 
+                            rows="5" cols="10"
+                            placeholder="Enter permanent address"></textarea>
+                        </div>
+                        <div class="form_control">
+                            <label for="hall">Hall</label>
+                            <input
+                            id="hall"
+                            name="hall"
+                            placeholder="Enter Hall Name"
+                            />
+                        </div>
+                        <div class="form_control">
+                            <label for="roll">Roll number</label>
+                            <input
+                            id="roll"
+                            name="roll"
+                            placeholder="Enter Roll number"
+                            />
+                        </div>
+                        <div class="form_control">
+                            <label for="year">Year</label>
+                          <select id="year">
+                                <option value="">Select Year</option>
+                                <option value="1st">1st</option>
+                                <option value="2nd">2nd</option>
+                                <option value="3rd">3rd</option>
+                                <option value="4th">4th</option>
+                            </select>
+                        </div>
+                        <div class="form_control">
+                            <label for="sem">Semester</label>
+                          <select id="sem">
+                                <option value="">Select Semester</option>
+                                <option value="1st">1st</option>
+                                <option value="2nd">2nd</option>
+                            </select>
+                        </div>
+                        <div class="form_control">
+                            <label for="photo">Photo Upload</label>
+                            <input type="file" id="photo" name="photo" accept="image/*">
+
+
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Submit now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
