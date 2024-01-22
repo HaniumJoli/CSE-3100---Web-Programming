@@ -1,3 +1,3 @@
-My first learning experience with HTML and CSS.
+# My first learning experience with HTML and CSS.
 The site has been deployed with github pages. The site is live at:
-https://haniumjoli.github.io/practicehtmlcss/
+https://haniumjoli.github.io/CSE-3100---Web-Programming/
