@@ -10,10 +10,10 @@
     <body>
         <div class="container">
             <div class="apply">
-                <h1>Registration Form
+                <h1 class="sticky">Registration Form
                     <span class="title_small">(New year)</span>
                 </h1>
-                <form action="">
+                <form action="process.php" method="post" enctype="multipart/form-data">
                     <div class="form-container">
                         <div class="form_control">
                             <label for="first_name">First Name</label>
@@ -53,6 +53,10 @@
                                 <option value="MSE">MSE</option>
                                 <option value="LE">LE</option>
                                 <option value="ECE">ECE</option>
+                                <option value="ME">ME</option>
+                                <option value="IPE">IPE</option>
+                                <option value="ESE">ESE</option>
+                                <option value="BME">BME</option>
                             </select>
                         </div>
                                         
@@ -66,11 +70,16 @@
                         </div>
                         <div class="form_control">
                             <label for="hall">Hall</label>
-                            <input
-                            id="hall"
-                            name="hall"
-                            placeholder="Enter Hall Name"
-                            />
+                            <select id="hall">
+                                <option value="">Select Hall</option>
+                                <option value="fazlul">Fazlul Haque Hall</option>
+                                <option value="lalon">Lalon Shah Hall</option>
+                                <option value="khaja">Khan Jahan Ali Hall</option>
+                                <option value="rashid">Dr.M.A Rashid Hall</option>
+                                <option value="rockeya">Rockeya Hall</option>
+                                <option value="amor">Amar Ekushey Hall</option>
+                                <option value="bongo">Bnagabanfhu Sheikh Mujibur Rahman Hall</option>
+                            </select>
                         </div>
                         <div class="form_control">
                             <label for="roll">Roll number</label>
